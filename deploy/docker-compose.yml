@@ -1,0 +1,7 @@
+services:
+  ac-api:
+    image: ghcr.io/tonela10/ac-api:latest
+    container_name: ac-api
+    restart: always
+    ports:
+      - "127.0.0.1:8080:8080"

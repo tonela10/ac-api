@@ -19,6 +19,8 @@ info:
     url: https://github.com/tonela10/ac-api
 
 servers:
+  - url: https://ac.jolgorio.app
+    description: Production
   - url: http://localhost:8080
     description: Local development
 
