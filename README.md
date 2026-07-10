@@ -4,6 +4,8 @@
 
 A public REST API serving Animal Crossing data across all mainline games. Written in Kotlin with Ktor. Data ships as curated JSON files in the repo — no database required.
 
+📖 **[API Reference](https://tonela10.github.io/ac-api/)** — interactive Swagger UI docs
+
 ## Quickstart
 
 ```bash

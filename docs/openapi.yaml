@@ -1,0 +1,507 @@
+openapi: 3.1.0
+info:
+  title: Animal Crossing API
+  version: 0.1.0
+  description: |
+    A public REST API serving Animal Crossing data across all mainline games:
+    Animal Crossing (GameCube), Wild World, City Folk, New Leaf, New Horizons,
+    and Pocket Camp.
+
+    - No authentication required
+    - JSON responses
+    - Every list endpoint supports filtering and pagination
+    - Data is human-curated in the repo — [contributions welcome](https://github.com/tonela10/ac-api/blob/main/CONTRIBUTING.md)
+  license:
+    name: MIT
+    url: https://github.com/tonela10/ac-api/blob/main/LICENSE
+  contact:
+    name: Source & issues
+    url: https://github.com/tonela10/ac-api
+
+servers:
+  - url: http://localhost:8080
+    description: Local development
+
+tags:
+  - name: Villagers
+  - name: Critters
+  - name: Museum
+  - name: Items
+  - name: Meta
+
+paths:
+  /health:
+    get:
+      tags: [Meta]
+      summary: Liveness check
+      responses:
+        '200':
+          description: Server is up
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: ok }
+                required: [status]
+
+  /api/v1/games:
+    get:
+      tags: [Meta]
+      summary: List supported games
+      description: Returns the six supported game codes and metadata. Use the `code` values as the `game` filter on other endpoints.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: { $ref: '#/components/schemas/GameInfo' }
+
+  /api/v1/villagers:
+    get:
+      tags: [Villagers]
+      summary: List villagers
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/PageSize'
+        - name: species
+          in: query
+          schema: { type: string }
+          example: cat
+        - name: personality
+          in: query
+          schema:
+            type: string
+            enum: [lazy, jock, cranky, smug, normal, peppy, snooty, sisterly]
+        - name: gender
+          in: query
+          schema:
+            type: string
+            enum: [male, female]
+        - name: game
+          in: query
+          schema: { $ref: '#/components/schemas/GameCode' }
+        - name: birthday_month
+          in: query
+          schema: { type: integer, minimum: 1, maximum: 12 }
+        - name: hobby
+          in: query
+          schema:
+            type: string
+            enum: [fashion, fitness, music, play, nature, education, business]
+        - name: zodiac
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: Paged list of villagers matching the filters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Villager' }
+                  pagination: { $ref: '#/components/schemas/Pagination' }
+                required: [data, pagination]
+        '400':
+          $ref: '#/components/responses/InvalidParameter'
+
+  /api/v1/villagers/{id}:
+    get:
+      tags: [Villagers]
+      summary: Get a villager by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+          description: Kebab-case slug, e.g. `raymond`
+      responses:
+        '200':
+          description: Villager detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Villager' }
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/v1/critters:
+    get:
+      tags: [Critters]
+      summary: List critters (fish, bugs, sea creatures)
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/PageSize'
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum: [fish, bug, sea_creature]
+        - name: game
+          in: query
+          schema: { $ref: '#/components/schemas/GameCode' }
+        - name: location
+          in: query
+          schema: { type: string }
+          example: river
+        - name: month
+          in: query
+          schema: { type: integer, minimum: 1, maximum: 12 }
+        - name: hemisphere
+          in: query
+          schema:
+            type: string
+            enum: [northern, southern]
+          description: |
+            When `month` is set, restricts availability check to the given hemisphere.
+            Without `hemisphere`, either hemisphere counts as a match.
+        - name: time_of_day
+          in: query
+          schema: { type: string }
+        - name: min_price
+          in: query
+          schema: { type: integer, minimum: 0 }
+        - name: max_price
+          in: query
+          schema: { type: integer, minimum: 0 }
+        - name: shadow_size
+          in: query
+          schema: { type: string }
+          description: Fish only (e.g. `small`, `large`, `xx-large`)
+        - name: rarity
+          in: query
+          schema:
+            type: string
+            enum: [common, uncommon, rare]
+      responses:
+        '200':
+          description: Paged list of critters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Critter' }
+                  pagination: { $ref: '#/components/schemas/Pagination' }
+                required: [data, pagination]
+        '400':
+          $ref: '#/components/responses/InvalidParameter'
+
+  /api/v1/critters/{id}:
+    get:
+      tags: [Critters]
+      summary: Get a critter by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Critter detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Critter' }
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/v1/museum:
+    get:
+      tags: [Museum]
+      summary: List museum entries (fossils, art)
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/PageSize'
+        - name: category
+          in: query
+          schema:
+            type: string
+            enum: [fossil, art]
+        - name: game
+          in: query
+          schema: { $ref: '#/components/schemas/GameCode' }
+      responses:
+        '200':
+          description: Paged list of museum entries
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/MuseumEntry' }
+                  pagination: { $ref: '#/components/schemas/Pagination' }
+                required: [data, pagination]
+        '400':
+          $ref: '#/components/responses/InvalidParameter'
+
+  /api/v1/museum/{id}:
+    get:
+      tags: [Museum]
+      summary: Get a museum entry by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Museum entry detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/MuseumEntry' }
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /api/v1/items:
+    get:
+      tags: [Items]
+      summary: List items (furniture, clothing, tools, DIY recipes, materials)
+      parameters:
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/PageSize'
+        - name: category
+          in: query
+          schema:
+            type: string
+            enum: [furniture, clothing, tool, diy_recipe, material, other]
+        - name: game
+          in: query
+          schema: { $ref: '#/components/schemas/GameCode' }
+        - name: theme
+          in: query
+          schema: { type: string }
+          example: wedding
+        - name: source
+          in: query
+          schema: { type: string }
+          example: crafted
+        - name: min_price
+          in: query
+          schema: { type: integer, minimum: 0 }
+        - name: max_price
+          in: query
+          schema: { type: integer, minimum: 0 }
+        - name: size
+          in: query
+          schema: { type: string }
+          example: 1x1
+      responses:
+        '200':
+          description: Paged list of items
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Item' }
+                  pagination: { $ref: '#/components/schemas/Pagination' }
+                required: [data, pagination]
+        '400':
+          $ref: '#/components/responses/InvalidParameter'
+
+  /api/v1/items/{id}:
+    get:
+      tags: [Items]
+      summary: Get an item by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Item detail
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Item' }
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+components:
+  parameters:
+    Page:
+      name: page
+      in: query
+      schema: { type: integer, minimum: 1, default: 1 }
+    PageSize:
+      name: page_size
+      in: query
+      schema: { type: integer, minimum: 1, maximum: 200, default: 50 }
+
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ApiError' }
+    InvalidParameter:
+      description: A query parameter is malformed or out of range
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ApiError' }
+
+  schemas:
+    GameCode:
+      type: string
+      enum: [acgc, ww, cf, nl, nh, pg]
+      description: |
+        - `acgc` — Animal Crossing (GameCube, 2001)
+        - `ww` — Wild World (DS, 2005)
+        - `cf` — City Folk (Wii, 2008)
+        - `nl` — New Leaf (3DS, 2012)
+        - `nh` — New Horizons (Switch, 2020)
+        - `pg` — Pocket Camp (Mobile, 2017)
+
+    GameInfo:
+      type: object
+      properties:
+        code: { $ref: '#/components/schemas/GameCode' }
+        name: { type: string, example: New Horizons }
+        platform: { type: string, example: Nintendo Switch }
+        release_year: { type: integer, example: 2020 }
+      required: [code, name, platform, release_year]
+
+    Villager:
+      type: object
+      properties:
+        id: { type: string, example: raymond }
+        name: { type: string, example: Raymond }
+        species: { type: string, example: cat }
+        personality: { type: string, example: smug }
+        gender: { type: string, example: male }
+        birthday_month: { type: integer, minimum: 1, maximum: 12, example: 10 }
+        birthday_day: { type: integer, minimum: 1, maximum: 31, example: 1 }
+        zodiac: { type: string, nullable: true, example: libra }
+        catchphrase: { type: string, nullable: true, example: crisp }
+        hobby: { type: string, nullable: true, example: business }
+        games:
+          type: array
+          items: { $ref: '#/components/schemas/GameCode' }
+      required: [id, name, species, personality, gender, birthday_month, birthday_day]
+
+    MonthAvailability:
+      type: object
+      properties:
+        northern:
+          type: array
+          items: { type: integer, minimum: 1, maximum: 12 }
+        southern:
+          type: array
+          items: { type: integer, minimum: 1, maximum: 12 }
+
+    Critter:
+      type: object
+      properties:
+        id: { type: string, example: coelacanth }
+        name: { type: string, example: Coelacanth }
+        type:
+          type: string
+          enum: [fish, bug, sea_creature]
+        location: { type: string, example: sea (raining) }
+        price: { type: integer, example: 15000 }
+        shadow_size: { type: string, nullable: true, example: xx-large }
+        time_of_day: { type: string, nullable: true, example: all_day }
+        months: { $ref: '#/components/schemas/MonthAvailability' }
+        rarity:
+          type: string
+          nullable: true
+          enum: [common, uncommon, rare]
+        games:
+          type: array
+          items: { $ref: '#/components/schemas/GameCode' }
+      required: [id, name, type, location, price]
+
+    MuseumEntry:
+      type: object
+      properties:
+        id: { type: string, example: t-rex-skull }
+        name: { type: string, example: T. rex skull }
+        category:
+          type: string
+          enum: [fossil, art]
+        price: { type: integer, nullable: true, example: 5000 }
+        part_of:
+          type: string
+          nullable: true
+          description: For multi-part fossils, the assembly they belong to
+          example: t-rex
+        real_artwork:
+          type: boolean
+          nullable: true
+          description: Art only — `true` for real, `false` for forgery
+        forgery_hint:
+          type: string
+          nullable: true
+          description: For forgeries, the visual detail that gives it away
+        artist:
+          type: string
+          nullable: true
+          example: Rembrandt
+        games:
+          type: array
+          items: { $ref: '#/components/schemas/GameCode' }
+      required: [id, name, category]
+
+    RecipeMaterial:
+      type: object
+      properties:
+        item_id: { type: string, example: white-rose }
+        quantity: { type: integer, minimum: 1, example: 4 }
+      required: [item_id, quantity]
+
+    Item:
+      type: object
+      properties:
+        id: { type: string, example: wedding-arch }
+        name: { type: string, example: Wedding arch }
+        category:
+          type: string
+          enum: [furniture, clothing, tool, diy_recipe, material, other]
+        buy_price: { type: integer, nullable: true }
+        sell_price: { type: integer, nullable: true }
+        theme: { type: string, nullable: true, example: wedding }
+        source: { type: string, nullable: true, example: crafted }
+        size: { type: string, nullable: true, example: 1x1 }
+        materials:
+          type: array
+          description: Empty unless `category` is `diy_recipe`
+          items: { $ref: '#/components/schemas/RecipeMaterial' }
+        games:
+          type: array
+          items: { $ref: '#/components/schemas/GameCode' }
+      required: [id, name, category]
+
+    Pagination:
+      type: object
+      properties:
+        page: { type: integer, example: 1 }
+        page_size: { type: integer, example: 50 }
+        total: { type: integer, example: 43 }
+        total_pages: { type: integer, example: 1 }
+        next: { type: string, nullable: true }
+        prev: { type: string, nullable: true }
+      required: [page, page_size, total, total_pages]
+
+    ApiError:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              enum: [not_found, invalid_parameter, internal_error]
+            message: { type: string }
+            status: { type: integer }
+          required: [code, message, status]
+      required: [error]
