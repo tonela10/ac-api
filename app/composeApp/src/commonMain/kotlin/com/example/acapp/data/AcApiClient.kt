@@ -1,6 +1,5 @@
 package com.example.acapp.data
 
-import com.example.acapp.data.dto.PagedResponse
 import com.example.acapp.data.dto.Villager
 import com.example.acapp.platform.httpClientEngine
 import io.ktor.client.HttpClient
@@ -8,13 +7,13 @@ import io.ktor.client.call.body
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.defaultRequest
 import io.ktor.client.request.get
-import io.ktor.client.request.parameter
 import io.ktor.http.URLProtocol
 import io.ktor.http.path
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 
-const val API_HOST = "ac.jolgorio.app"
+const val DATA_HOST = "tonela10.github.io"
+const val DATA_BASE_PATH = "/ac-api/data"
 
 class AcApiClient {
     val client: HttpClient = HttpClient(httpClientEngine()) {
@@ -27,19 +26,11 @@ class AcApiClient {
         defaultRequest {
             url {
                 protocol = URLProtocol.HTTPS
-                host = API_HOST
+                host = DATA_HOST
             }
         }
     }
 
-    suspend fun listVillagers(pageSize: Int = 50): PagedResponse<Villager> =
-        client.get {
-            url { path("api", "v1", "villagers") }
-            parameter("page_size", pageSize)
-        }.body()
-
-    suspend fun getVillager(id: String): Villager =
-        client.get {
-            url { path("api", "v1", "villagers", id) }
-        }.body()
+    suspend fun fetchVillagers(): List<Villager> =
+        client.get { url { path("ac-api", "data", "villagers.json") } }.body()
 }

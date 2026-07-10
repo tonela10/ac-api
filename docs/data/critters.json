@@ -1,0 +1,440 @@
+[
+  {
+    "id": "bitterling",
+    "name": "Bitterling",
+    "type": "fish",
+    "location": "river",
+    "price": 900,
+    "shadow_size": "small",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [11, 12, 1, 2, 3],
+      "southern": [5, 6, 7, 8, 9]
+    },
+    "rarity": "common",
+    "games": ["cf", "nl", "nh"]
+  },
+  {
+    "id": "black-bass",
+    "name": "Black bass",
+    "type": "fish",
+    "location": "river",
+    "price": 400,
+    "shadow_size": "large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "carp",
+    "name": "Carp",
+    "type": "fish",
+    "location": "pond",
+    "price": 300,
+    "shadow_size": "large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "coelacanth",
+    "name": "Coelacanth",
+    "type": "fish",
+    "location": "sea (raining)",
+    "price": 15000,
+    "shadow_size": "xx-large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "rare",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "koi",
+    "name": "Koi",
+    "type": "fish",
+    "location": "pond",
+    "price": 4000,
+    "shadow_size": "large",
+    "time_of_day": "16:00-09:00",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "uncommon",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "sea-bass",
+    "name": "Sea bass",
+    "type": "fish",
+    "location": "sea",
+    "price": 400,
+    "shadow_size": "x-large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "great-white-shark",
+    "name": "Great white shark",
+    "type": "fish",
+    "location": "sea",
+    "price": 15000,
+    "shadow_size": "xx-large (fin)",
+    "time_of_day": "16:00-09:00",
+    "months": {
+      "northern": [6, 7, 8, 9],
+      "southern": [12, 1, 2, 3]
+    },
+    "rarity": "rare",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "napoleonfish",
+    "name": "Napoleonfish",
+    "type": "fish",
+    "location": "sea",
+    "price": 10000,
+    "shadow_size": "xx-large",
+    "time_of_day": "04:00-21:00",
+    "months": {
+      "northern": [7, 8],
+      "southern": [1, 2]
+    },
+    "rarity": "rare",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "pond-smelt",
+    "name": "Pond smelt",
+    "type": "fish",
+    "location": "river",
+    "price": 300,
+    "shadow_size": "small",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [12, 1, 2],
+      "southern": [6, 7, 8]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "type": "fish",
+    "location": "river (mouth)",
+    "price": 700,
+    "shadow_size": "large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [9],
+      "southern": [3]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "stringfish",
+    "name": "Stringfish",
+    "type": "fish",
+    "location": "river (clifftop)",
+    "price": 15000,
+    "shadow_size": "xx-large",
+    "time_of_day": "16:00-09:00",
+    "months": {
+      "northern": [12, 1, 2, 3],
+      "southern": [6, 7, 8, 9]
+    },
+    "rarity": "rare",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "sturgeon",
+    "name": "Sturgeon",
+    "type": "fish",
+    "location": "river (mouth)",
+    "price": 10000,
+    "shadow_size": "xx-large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [9, 10, 11, 12, 1, 2, 3],
+      "southern": [3, 4, 5, 6, 7, 8, 9]
+    },
+    "rarity": "rare",
+    "games": ["cf", "nl", "nh"]
+  },
+  {
+    "id": "arowana",
+    "name": "Arowana",
+    "type": "fish",
+    "location": "river",
+    "price": 10000,
+    "shadow_size": "large",
+    "time_of_day": "16:00-09:00",
+    "months": {
+      "northern": [6, 7, 8, 9],
+      "southern": [12, 1, 2, 3]
+    },
+    "rarity": "rare",
+    "games": ["cf", "nl", "nh"]
+  },
+  {
+    "id": "common-butterfly",
+    "name": "Common butterfly",
+    "type": "bug",
+    "location": "flying",
+    "price": 160,
+    "time_of_day": "04:00-19:00",
+    "months": {
+      "northern": [9, 10, 11, 12, 1, 2, 3, 4, 5, 6],
+      "southern": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "monarch-butterfly",
+    "name": "Monarch butterfly",
+    "type": "bug",
+    "location": "flying",
+    "price": 140,
+    "time_of_day": "04:00-17:00",
+    "months": {
+      "northern": [9, 10, 11],
+      "southern": [3, 4, 5]
+    },
+    "rarity": "uncommon",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "emperor-butterfly",
+    "name": "Emperor butterfly",
+    "type": "bug",
+    "location": "flying",
+    "price": 4000,
+    "time_of_day": "17:00-08:00",
+    "months": {
+      "northern": [12, 1, 2, 3, 4, 5, 6],
+      "southern": [6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "uncommon",
+    "games": ["nh"]
+  },
+  {
+    "id": "goliath-beetle",
+    "name": "Goliath beetle",
+    "type": "bug",
+    "location": "on palm trees",
+    "price": 8000,
+    "time_of_day": "17:00-08:00",
+    "months": {
+      "northern": [6, 7, 8, 9],
+      "southern": [12, 1, 2, 3]
+    },
+    "rarity": "rare",
+    "games": ["nh"]
+  },
+  {
+    "id": "hercules-beetle",
+    "name": "Hercules beetle",
+    "type": "bug",
+    "location": "on palm trees",
+    "price": 12000,
+    "time_of_day": "17:00-08:00",
+    "months": {
+      "northern": [7, 8],
+      "southern": [1, 2]
+    },
+    "rarity": "rare",
+    "games": ["acgc", "cf", "nl", "nh"]
+  },
+  {
+    "id": "atlas-moth",
+    "name": "Atlas moth",
+    "type": "bug",
+    "location": "on trees",
+    "price": 3000,
+    "time_of_day": "19:00-04:00",
+    "months": {
+      "northern": [4, 5, 6, 7, 8, 9],
+      "southern": [10, 11, 12, 1, 2, 3]
+    },
+    "rarity": "uncommon",
+    "games": ["nh"]
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "type": "bug",
+    "location": "flying by water",
+    "price": 300,
+    "time_of_day": "19:00-04:00",
+    "months": {
+      "northern": [6],
+      "southern": [12]
+    },
+    "rarity": "common",
+    "games": ["acgc", "ww", "cf", "nl", "nh"]
+  },
+  {
+    "id": "honeybee",
+    "name": "Honeybee",
+    "type": "bug",
+    "location": "flying",
+    "price": 200,
+    "time_of_day": "08:00-17:00",
+    "months": {
+      "northern": [3, 4, 5, 6, 7],
+      "southern": [9, 10, 11, 12, 1]
+    },
+    "rarity": "common",
+    "games": ["nh"]
+  },
+  {
+    "id": "tarantula",
+    "name": "Tarantula",
+    "type": "bug",
+    "location": "on the ground",
+    "price": 8000,
+    "time_of_day": "19:00-04:00",
+    "months": {
+      "northern": [11, 12, 1, 2, 3, 4],
+      "southern": [5, 6, 7, 8, 9, 10]
+    },
+    "rarity": "rare",
+    "games": ["cf", "nl", "nh"]
+  },
+  {
+    "id": "scorpion",
+    "name": "Scorpion",
+    "type": "bug",
+    "location": "on the ground",
+    "price": 8000,
+    "time_of_day": "19:00-04:00",
+    "months": {
+      "northern": [5, 6, 7, 8, 9, 10],
+      "southern": [11, 12, 1, 2, 3, 4]
+    },
+    "rarity": "rare",
+    "games": ["cf", "nl", "nh"]
+  },
+  {
+    "id": "ladybug",
+    "name": "Ladybug",
+    "type": "bug",
+    "location": "on flowers",
+    "price": 200,
+    "time_of_day": "08:00-17:00",
+    "months": {
+      "northern": [3, 4, 5, 6, 10],
+      "southern": [9, 10, 11, 12, 4]
+    },
+    "rarity": "common",
+    "games": ["nh"]
+  },
+  {
+    "id": "walking-stick",
+    "name": "Walking stick",
+    "type": "bug",
+    "location": "on trees",
+    "price": 600,
+    "time_of_day": "04:00-08:00",
+    "months": {
+      "northern": [7, 8, 9, 10, 11],
+      "southern": [1, 2, 3, 4, 5]
+    },
+    "rarity": "uncommon",
+    "games": ["nh"]
+  },
+  {
+    "id": "acorn-barnacle",
+    "name": "Acorn barnacle",
+    "type": "sea_creature",
+    "location": "diving",
+    "price": 600,
+    "shadow_size": "small",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "common",
+    "games": ["nh"]
+  },
+  {
+    "id": "giant-isopod",
+    "name": "Giant isopod",
+    "type": "sea_creature",
+    "location": "diving",
+    "price": 12000,
+    "shadow_size": "medium",
+    "time_of_day": "16:00-09:00",
+    "months": {
+      "northern": [7, 8, 9, 10],
+      "southern": [1, 2, 3, 4]
+    },
+    "rarity": "rare",
+    "games": ["nh"]
+  },
+  {
+    "id": "pearl-oyster",
+    "name": "Pearl oyster",
+    "type": "sea_creature",
+    "location": "diving",
+    "price": 2800,
+    "shadow_size": "small",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "rarity": "uncommon",
+    "games": ["nh"]
+  },
+  {
+    "id": "spider-crab",
+    "name": "Spider crab",
+    "type": "sea_creature",
+    "location": "diving",
+    "price": 12000,
+    "shadow_size": "large",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [3, 4],
+      "southern": [9, 10]
+    },
+    "rarity": "rare",
+    "games": ["nh"]
+  },
+  {
+    "id": "sea-grape",
+    "name": "Sea grapes",
+    "type": "sea_creature",
+    "location": "diving",
+    "price": 900,
+    "shadow_size": "small",
+    "time_of_day": "all_day",
+    "months": {
+      "northern": [6, 7, 8, 9],
+      "southern": [12, 1, 2, 3]
+    },
+    "rarity": "common",
+    "games": ["nh"]
+  }
+]

@@ -7,9 +7,17 @@ info:
     Animal Crossing (GameCube), Wild World, City Folk, New Leaf, New Horizons,
     and Pocket Camp.
 
+    **Deployment status:** the interactive REST API described in this spec runs
+    locally with `./gradlew run` and supports filtering / pagination. For
+    consumers who just want the raw dataset, bulk JSON dumps are hosted for free
+    on GitHub Pages at
+    [tonela10.github.io/ac-api/data/](https://tonela10.github.io/ac-api/data/) —
+    fetch the whole array of a resource (`villagers.json`, `critters.json`,
+    `museum.json`, `items.json`, `games.json`) and filter client-side.
+
     - No authentication required
     - JSON responses
-    - Every list endpoint supports filtering and pagination
+    - Every list endpoint supports filtering and pagination (server only)
     - Data is human-curated in the repo — [contributions welcome](https://github.com/tonela10/ac-api/blob/main/CONTRIBUTING.md)
   license:
     name: MIT
@@ -19,10 +27,8 @@ info:
     url: https://github.com/tonela10/ac-api
 
 servers:
-  - url: https://ac.jolgorio.app
-    description: Production
   - url: http://localhost:8080
-    description: Local development
+    description: Local development (run the Ktor server with ./gradlew run)
 
 tags:
   - name: Villagers

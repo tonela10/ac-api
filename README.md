@@ -5,6 +5,13 @@
 A public REST API serving Animal Crossing data across all mainline games. Written in Kotlin with Ktor. Data ships as curated JSON files in the repo — no database required.
 
 📖 **[API Reference](https://tonela10.github.io/ac-api/)** — interactive Swagger UI docs
+📦 **[Bulk data dumps](https://tonela10.github.io/ac-api/data/)** — static JSON files, no server needed
+
+## Two ways to consume this project
+
+**As a live REST API with query-parameter filtering:** clone the repo, run `./gradlew run`, hit `http://localhost:8080`. Full filter/pagination semantics as documented in the API reference above.
+
+**As static bulk data dumps (currently deployed):** fetch [villagers.json](https://tonela10.github.io/ac-api/data/villagers.json), [critters.json](https://tonela10.github.io/ac-api/data/critters.json), [museum.json](https://tonela10.github.io/ac-api/data/museum.json), [items.json](https://tonela10.github.io/ac-api/data/items.json), or [games.json](https://tonela10.github.io/ac-api/data/games.json) directly from GitHub Pages. Each file is a bare JSON array of the resource. No filtering — clients do it in-memory. Zero-cost delivery, no CORS issues.
 
 ## Quickstart
 

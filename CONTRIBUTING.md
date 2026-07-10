@@ -11,7 +11,9 @@ All data lives in `src/main/resources/data/*.json`. Each file is a plain JSON ar
 3. Use kebab-case `id` values (`raymond`, `emperor-butterfly`, `wedding-arch`).
 4. Reference game codes from `games.json` (`acgc`, `ww`, `cf`, `nl`, `nh`, `pg`).
 5. Run `./gradlew test` — the data integrity tests will catch unknown material references, duplicate ids, and missing required fields.
-6. Open a PR. Cite your source (Nookipedia page URL, in-game screenshot, etc.) in the description.
+6. **Run `./scripts/sync-data.sh`** — this copies your edits into `docs/data/` so the GitHub Pages dumps stay in sync. CI will fail if you forget.
+7. `git add` both `src/main/resources/data/*.json` and `docs/data/*.json`.
+8. Open a PR. Cite your source (Nookipedia page URL, in-game screenshot, etc.) in the description.
 
 ### Adding images
 

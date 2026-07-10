@@ -11,6 +11,22 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  data-drift:
+    name: Data dumps in sync
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Compare src/main/resources/data vs docs/data
+        run: |
+          if ! diff -r src/main/resources/data docs/data; then
+            echo ""
+            echo "❌ docs/data/ is out of sync with src/main/resources/data/."
+            echo "Run ./scripts/sync-data.sh and commit the changes."
+            exit 1
+          fi
+          echo "✓ Data dumps are in sync."
+
   build:
     name: Build & test
     runs-on: ubuntu-latest

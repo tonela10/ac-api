@@ -1,0 +1,231 @@
+[
+  {
+    "id": "t-rex-skull",
+    "name": "T. rex skull",
+    "category": "fossil",
+    "price": 5000,
+    "part_of": "t-rex",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "t-rex-torso",
+    "name": "T. rex torso",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "t-rex",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "t-rex-tail",
+    "name": "T. rex tail",
+    "category": "fossil",
+    "price": 6000,
+    "part_of": "t-rex",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "triceratops-skull",
+    "name": "Triceratops skull",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "triceratops",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "triceratops-torso",
+    "name": "Triceratops torso",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "triceratops",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "triceratops-tail",
+    "name": "Triceratops tail",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "triceratops",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "stegosaurus-skull",
+    "name": "Stegosaurus skull",
+    "category": "fossil",
+    "price": 5000,
+    "part_of": "stegosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "stegosaurus-torso",
+    "name": "Stegosaurus torso",
+    "category": "fossil",
+    "price": 4500,
+    "part_of": "stegosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "stegosaurus-tail",
+    "name": "Stegosaurus tail",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "stegosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "brachiosaurus-skull",
+    "name": "Brachiosaurus skull",
+    "category": "fossil",
+    "price": 6000,
+    "part_of": "brachiosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "brachiosaurus-chest",
+    "name": "Brachiosaurus chest",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "brachiosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "brachiosaurus-pelvis",
+    "name": "Brachiosaurus pelvis",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "brachiosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "brachiosaurus-tail",
+    "name": "Brachiosaurus tail",
+    "category": "fossil",
+    "price": 5500,
+    "part_of": "brachiosaurus",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "ammonite",
+    "name": "Ammonite",
+    "category": "fossil",
+    "price": 1100,
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "trilobite",
+    "name": "Trilobite",
+    "category": "fossil",
+    "price": 1300,
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "mammoth-skull",
+    "name": "Mammoth skull",
+    "category": "fossil",
+    "price": 3500,
+    "part_of": "mammoth",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "mammoth-torso",
+    "name": "Mammoth torso",
+    "category": "fossil",
+    "price": 3000,
+    "part_of": "mammoth",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "amazing-painting",
+    "name": "Amazing painting",
+    "category": "art",
+    "price": 3920,
+    "real_artwork": true,
+    "artist": "Rembrandt",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "amazing-painting-forgery",
+    "name": "Amazing painting (forgery)",
+    "category": "art",
+    "price": 0,
+    "real_artwork": false,
+    "forgery_hint": "The Night Watchman on the far right is missing his hat.",
+    "artist": "Rembrandt",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "famous-painting",
+    "name": "Famous painting",
+    "category": "art",
+    "price": 3920,
+    "real_artwork": true,
+    "artist": "Leonardo da Vinci",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "famous-painting-forgery",
+    "name": "Famous painting (forgery)",
+    "category": "art",
+    "price": 0,
+    "real_artwork": false,
+    "forgery_hint": "The subject has raised eyebrows in the real painting.",
+    "artist": "Leonardo da Vinci",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "wistful-painting",
+    "name": "Wistful painting",
+    "category": "art",
+    "price": 4900,
+    "real_artwork": true,
+    "artist": "Johannes Vermeer",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "wistful-painting-forgery",
+    "name": "Wistful painting (forgery)",
+    "category": "art",
+    "price": 0,
+    "real_artwork": false,
+    "forgery_hint": "The girl's earring should be visible.",
+    "artist": "Johannes Vermeer",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "scary-painting",
+    "name": "Scary painting",
+    "category": "art",
+    "price": 1568,
+    "real_artwork": true,
+    "artist": "Sharaku",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "scary-painting-forgery",
+    "name": "Scary painting (forgery)",
+    "category": "art",
+    "price": 0,
+    "real_artwork": false,
+    "forgery_hint": "In the forgery, the eyebrows are green instead of black.",
+    "artist": "Sharaku",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "beautiful-statue",
+    "name": "Beautiful statue",
+    "category": "art",
+    "price": 6000,
+    "real_artwork": true,
+    "artist": "Alexandros of Antioch",
+    "games": ["nh"]
+  },
+  {
+    "id": "beautiful-statue-forgery",
+    "name": "Beautiful statue (forgery)",
+    "category": "art",
+    "price": 0,
+    "real_artwork": false,
+    "forgery_hint": "The forgery is wearing a necklace.",
+    "artist": "Alexandros of Antioch",
+    "games": ["nh"]
+  }
+]
