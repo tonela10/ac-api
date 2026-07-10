@@ -1,0 +1,368 @@
+[
+  {
+    "id": "wooden-chair",
+    "name": "Wooden chair",
+    "category": "furniture",
+    "buy_price": 2000,
+    "sell_price": 500,
+    "theme": "wooden",
+    "source": "nook_shopping",
+    "size": "1x1",
+    "games": ["nh"]
+  },
+  {
+    "id": "wooden-table",
+    "name": "Wooden table",
+    "category": "furniture",
+    "buy_price": 3200,
+    "sell_price": 800,
+    "theme": "wooden",
+    "source": "nook_shopping",
+    "size": "2x1",
+    "games": ["nh"]
+  },
+  {
+    "id": "wooden-bookshelf",
+    "name": "Wooden bookshelf",
+    "category": "furniture",
+    "buy_price": 4200,
+    "sell_price": 1050,
+    "theme": "wooden",
+    "source": "nook_shopping",
+    "size": "1x1",
+    "games": ["nh"]
+  },
+  {
+    "id": "antique-bed",
+    "name": "Antique bed",
+    "category": "furniture",
+    "buy_price": 12000,
+    "sell_price": 3000,
+    "theme": "antique",
+    "source": "nook_shopping",
+    "size": "2x2",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "iron-chair",
+    "name": "Iron chair",
+    "category": "furniture",
+    "sell_price": 375,
+    "theme": "iron",
+    "source": "crafted",
+    "size": "1x1",
+    "games": ["nh"]
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "category": "furniture",
+    "sell_price": 375,
+    "theme": "outdoors",
+    "source": "crafted",
+    "size": "1x1",
+    "games": ["nh"]
+  },
+  {
+    "id": "wedding-arch",
+    "name": "Wedding arch",
+    "category": "diy_recipe",
+    "sell_price": 240,
+    "theme": "wedding",
+    "source": "crafted",
+    "materials": [
+      { "item_id": "white-rose", "quantity": 4 },
+      { "item_id": "iron-nugget", "quantity": 2 }
+    ],
+    "games": ["nh"]
+  },
+  {
+    "id": "wedding-bench",
+    "name": "Wedding bench",
+    "category": "diy_recipe",
+    "sell_price": 240,
+    "theme": "wedding",
+    "source": "crafted",
+    "materials": [
+      { "item_id": "wood", "quantity": 4 },
+      { "item_id": "white-rose", "quantity": 6 }
+    ],
+    "games": ["nh"]
+  },
+  {
+    "id": "birthday-cake",
+    "name": "Birthday cake",
+    "category": "diy_recipe",
+    "sell_price": 500,
+    "theme": "birthday",
+    "source": "crafted",
+    "materials": [
+      { "item_id": "wheat", "quantity": 4 },
+      { "item_id": "sugar", "quantity": 2 }
+    ],
+    "games": ["nh"]
+  },
+  {
+    "id": "log-bench",
+    "name": "Log bench",
+    "category": "diy_recipe",
+    "sell_price": 200,
+    "theme": "wooden",
+    "source": "crafted",
+    "materials": [
+      { "item_id": "wood", "quantity": 4 }
+    ],
+    "games": ["nh"]
+  },
+  {
+    "id": "log-stool",
+    "name": "Log stool",
+    "category": "diy_recipe",
+    "sell_price": 60,
+    "theme": "wooden",
+    "source": "crafted",
+    "materials": [
+      { "item_id": "wood", "quantity": 3 }
+    ],
+    "games": ["nh"]
+  },
+  {
+    "id": "flimsy-fishing-rod",
+    "name": "Flimsy fishing rod",
+    "category": "tool",
+    "buy_price": 400,
+    "sell_price": 100,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "fishing-rod",
+    "name": "Fishing rod",
+    "category": "tool",
+    "buy_price": 2500,
+    "sell_price": 625,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "flimsy-net",
+    "name": "Flimsy net",
+    "category": "tool",
+    "buy_price": 400,
+    "sell_price": 100,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "net",
+    "name": "Net",
+    "category": "tool",
+    "buy_price": 2500,
+    "sell_price": 625,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "flimsy-shovel",
+    "name": "Flimsy shovel",
+    "category": "tool",
+    "buy_price": 400,
+    "sell_price": 100,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "shovel",
+    "name": "Shovel",
+    "category": "tool",
+    "buy_price": 2500,
+    "sell_price": 625,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "flimsy-axe",
+    "name": "Flimsy axe",
+    "category": "tool",
+    "buy_price": 800,
+    "sell_price": 200,
+    "source": "crafted",
+    "games": ["nh"]
+  },
+  {
+    "id": "stone-axe",
+    "name": "Stone axe",
+    "category": "tool",
+    "sell_price": 250,
+    "source": "crafted",
+    "games": ["nh"]
+  },
+  {
+    "id": "axe",
+    "name": "Axe",
+    "category": "tool",
+    "sell_price": 625,
+    "source": "crafted",
+    "games": ["nh"]
+  },
+  {
+    "id": "watering-can",
+    "name": "Watering can",
+    "category": "tool",
+    "buy_price": 800,
+    "sell_price": 200,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "slingshot",
+    "name": "Slingshot",
+    "category": "tool",
+    "buy_price": 900,
+    "sell_price": 225,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "sailor-hat",
+    "name": "Sailor's hat",
+    "category": "clothing",
+    "buy_price": 640,
+    "sell_price": 160,
+    "theme": "nautical",
+    "source": "able_sisters",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "straw-hat",
+    "name": "Straw hat",
+    "category": "clothing",
+    "buy_price": 560,
+    "sell_price": 140,
+    "theme": "outdoors",
+    "source": "able_sisters",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "wetsuit",
+    "name": "Wetsuit",
+    "category": "clothing",
+    "buy_price": 3000,
+    "sell_price": 750,
+    "theme": "sport",
+    "source": "nook_shopping",
+    "games": ["nh"]
+  },
+  {
+    "id": "kimono",
+    "name": "Ceremonial kimono",
+    "category": "clothing",
+    "buy_price": 3600,
+    "sell_price": 900,
+    "theme": "japanese",
+    "source": "able_sisters",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "tuxedo",
+    "name": "Tuxedo jacket",
+    "category": "clothing",
+    "buy_price": 2400,
+    "sell_price": 600,
+    "theme": "formal",
+    "source": "able_sisters",
+    "games": ["nl", "nh"]
+  },
+  {
+    "id": "wood",
+    "name": "Wood",
+    "category": "material",
+    "sell_price": 60,
+    "source": "tree",
+    "games": ["nh"]
+  },
+  {
+    "id": "softwood",
+    "name": "Softwood",
+    "category": "material",
+    "sell_price": 60,
+    "source": "tree",
+    "games": ["nh"]
+  },
+  {
+    "id": "hardwood",
+    "name": "Hardwood",
+    "category": "material",
+    "sell_price": 60,
+    "source": "tree",
+    "games": ["nh"]
+  },
+  {
+    "id": "iron-nugget",
+    "name": "Iron nugget",
+    "category": "material",
+    "sell_price": 375,
+    "source": "rock",
+    "games": ["nh"]
+  },
+  {
+    "id": "gold-nugget",
+    "name": "Gold nugget",
+    "category": "material",
+    "sell_price": 10000,
+    "source": "rock",
+    "games": ["nh"]
+  },
+  {
+    "id": "stone",
+    "name": "Stone",
+    "category": "material",
+    "sell_price": 75,
+    "source": "rock",
+    "games": ["nh"]
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "category": "material",
+    "sell_price": 100,
+    "source": "rock",
+    "games": ["nh"]
+  },
+  {
+    "id": "white-rose",
+    "name": "White rose",
+    "category": "material",
+    "buy_price": 240,
+    "sell_price": 80,
+    "theme": "wedding",
+    "source": "grown",
+    "games": ["nh"]
+  },
+  {
+    "id": "red-rose",
+    "name": "Red rose",
+    "category": "material",
+    "buy_price": 240,
+    "sell_price": 80,
+    "source": "grown",
+    "games": ["nh"]
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "category": "material",
+    "sell_price": 200,
+    "source": "grown",
+    "games": ["nh"]
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "category": "material",
+    "buy_price": 200,
+    "sell_price": 50,
+    "source": "nook_shopping",
+    "games": ["nh"]
+  }
+]
