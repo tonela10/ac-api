@@ -30,5 +30,6 @@ data class Item(
     val source: String? = null,
     val size: String? = null,
     val materials: List<RecipeMaterial> = emptyList(),
+    @SerialName("image_url") val imageUrl: String? = null,
     val games: List<Game> = emptyList(),
 )

@@ -19,5 +19,6 @@ data class MuseumEntry(
     @SerialName("real_artwork") val realArtwork: Boolean? = null,
     @SerialName("forgery_hint") val forgeryHint: String? = null,
     val artist: String? = null,
+    @SerialName("image_url") val imageUrl: String? = null,
     val games: List<Game> = emptyList(),
 )

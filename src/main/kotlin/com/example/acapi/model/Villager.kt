@@ -15,5 +15,6 @@ data class Villager(
     val zodiac: String? = null,
     val catchphrase: String? = null,
     val hobby: String? = null,
+    @SerialName("image_url") val imageUrl: String? = null,
     val games: List<Game> = emptyList(),
 )

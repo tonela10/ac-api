@@ -33,5 +33,6 @@ data class Critter(
     @SerialName("time_of_day") val timeOfDay: String? = null,
     val months: MonthAvailability = MonthAvailability(),
     val rarity: String? = null,
+    @SerialName("image_url") val imageUrl: String? = null,
     val games: List<Game> = emptyList(),
 )

@@ -384,6 +384,13 @@ components:
         zodiac: { type: string, nullable: true, example: libra }
         catchphrase: { type: string, nullable: true, example: crisp }
         hobby: { type: string, nullable: true, example: business }
+        image_url:
+          type: string
+          format: uri
+          nullable: true
+          description: |
+            Optional. Hotlink URL to an image on the Nookipedia CDN.
+            May be `null` if no image has been curated yet.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -416,6 +423,11 @@ components:
           type: string
           nullable: true
           enum: [common, uncommon, rare]
+        image_url:
+          type: string
+          format: uri
+          nullable: true
+          description: Optional hotlink to a Nookipedia CDN image.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -447,6 +459,11 @@ components:
           type: string
           nullable: true
           example: Rembrandt
+        image_url:
+          type: string
+          format: uri
+          nullable: true
+          description: Optional hotlink to a Nookipedia CDN image.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -476,6 +493,11 @@ components:
           type: array
           description: Empty unless `category` is `diy_recipe`
           items: { $ref: '#/components/schemas/RecipeMaterial' }
+        image_url:
+          type: string
+          format: uri
+          nullable: true
+          description: Optional hotlink to a Nookipedia CDN image.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
