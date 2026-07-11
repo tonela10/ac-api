@@ -4,6 +4,12 @@ build/
 local.properties
 *.log
 
+# Android Studio / IntelliJ — only track the checked-in Run configs and gradle settings
+.idea/*
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
+*.iml
+
 # iOS
 xcuserdata/
 *.xcuserstate

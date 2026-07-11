@@ -1,11 +1,15 @@
 .gradle/
 build/
 .kotlin/
+gradle/gradle-daemon-jvm.properties
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
 .idea/
+!app/.idea/
+app/.idea/*
+!app/.idea/runConfigurations/
 *.iml
 .DS_Store
 

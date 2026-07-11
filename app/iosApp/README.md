@@ -1,24 +1,27 @@
 # iOS app
 
-Xcode can't build a Kotlin Multiplatform project directly — you need a native Xcode project that embeds the `ComposeApp` XCFramework produced by Gradle.
+## Run
 
-## Setup (one-time)
+```bash
+open iosApp.xcodeproj
+```
 
-1. Open Xcode → **Create New Project** → **iOS App**
-2. Product name: `iosApp`, interface: SwiftUI, language: Swift
-3. Save into this directory (`app/iosApp/`), overwriting the placeholder folder
-4. Delete Xcode's generated `ContentView.swift` and `iosAppApp.swift`
-5. Drag `iOSApp.swift` (already in this folder) into the Xcode project
-6. In **Build Phases** → **Run Script**, add a new phase *before* "Compile Sources":
-   ```bash
-   cd "$SRCROOT/.."
-   ./gradlew :composeApp:embedAndSignAppleFrameworkForXcode
-   ```
-7. In **Framework Search Paths**, add:
-   ```
-   $(SRCROOT)/../composeApp/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)
-   ```
-8. In **Other Linker Flags**, add `-framework ComposeApp`
-9. Build & run on a simulator
+Then hit ⌘R in Xcode. On first build the "Compile Kotlin Framework" phase runs `./gradlew :composeApp:embedAndSignAppleFrameworkForXcode` — that takes a minute the first time, then it's incremental.
 
-Alternatively, use the [JetBrains Kotlin Multiplatform Wizard](https://kmp.jetbrains.com/) to generate a fresh scaffold and copy the `commonMain` / `androidMain` / `iosMain` sources from this repo into it — that gets you a working `iosApp.xcodeproj` in minutes instead of clicking through the manual steps.
+## Requirements
+
+- Xcode 15+
+- iOS 16 deployment target
+- The Kotlin/Native toolchain (installed automatically the first time you build — the Gradle script pulls it via the standard KMP mechanism)
+
+## How it's wired
+
+- `iOSApp.swift` — SwiftUI `@main` entry, wraps the Kotlin-produced UIViewController in a `UIViewControllerRepresentable`
+- `iosApp.xcodeproj` — pre-configured with:
+  - Framework Search Path pointing at `../composeApp/build/xcode-frameworks/$(CONFIGURATION)/$(SDK_NAME)`
+  - `-framework ComposeApp` in Other Linker Flags
+  - "Compile Kotlin Framework" script build phase that runs before compile
+
+## Signing
+
+The project uses automatic signing. On first open, Xcode may prompt you to select a team — pick your personal Apple ID. For simulator builds, no signing is needed.
