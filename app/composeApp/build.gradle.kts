@@ -47,6 +47,9 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.viewmodel.compose)
             implementation(libs.androidx.navigation.compose)
+
+            implementation(libs.coil.compose)
+            implementation(libs.coil.network.ktor)
         }
 
         androidMain.dependencies {

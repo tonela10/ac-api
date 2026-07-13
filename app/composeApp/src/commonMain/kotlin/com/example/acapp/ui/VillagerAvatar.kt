@@ -10,11 +10,13 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.material3.Text
+import coil3.compose.AsyncImage
 import com.example.acapp.data.dto.Villager
 import com.example.acapp.ui.theme.AcColors
 import kotlin.math.abs
@@ -83,17 +85,29 @@ fun VillagerAvatar(
     modifier: Modifier = Modifier,
     size: Dp = 56.dp,
 ) {
-    Box(
-        modifier = modifier
-            .size(size)
-            .clip(CircleShape)
-            .background(personalityHue(villager.personality))
-            .border(2.dp, AcColors.Leaf.copy(alpha = 0.15f), CircleShape),
-        contentAlignment = Alignment.Center,
-    ) {
-        Text(
-            text = speciesEmoji(villager.species),
-            style = TextStyle(fontSize = (size.value * 0.55f).sp),
+    val bg = personalityHue(villager.personality)
+    val borderMod = Modifier
+        .size(size)
+        .clip(CircleShape)
+        .background(bg)
+        .border(2.dp, AcColors.Leaf.copy(alpha = 0.15f), CircleShape)
+
+    if (villager.imageUrl != null) {
+        AsyncImage(
+            model = villager.imageUrl,
+            contentDescription = villager.name,
+            contentScale = ContentScale.Fit,
+            modifier = modifier.then(borderMod),
         )
+    } else {
+        Box(
+            modifier = modifier.then(borderMod),
+            contentAlignment = Alignment.Center,
+        ) {
+            Text(
+                text = speciesEmoji(villager.species),
+                style = TextStyle(fontSize = (size.value * 0.55f).sp),
+            )
+        }
     }
 }
