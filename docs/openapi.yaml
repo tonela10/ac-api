@@ -396,9 +396,8 @@ components:
           type: string
           format: uri
           nullable: true
-          description: |
-            Optional. Hotlink URL to an image on the Nookipedia CDN.
-            May be `null` if no image has been curated yet.
+          example: "https://dodo.ac/np/images/2/2a/Raymond_NH.png"
+          description: Hotlink to a Nookipedia CDN image. Present for all villagers.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -435,7 +434,7 @@ components:
           type: string
           format: uri
           nullable: true
-          description: Optional hotlink to a Nookipedia CDN image.
+          description: Hotlink to a Nookipedia CDN image. Present for all critters.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -471,7 +470,7 @@ components:
           type: string
           format: uri
           nullable: true
-          description: Optional hotlink to a Nookipedia CDN image.
+          description: "Nookipedia CDN image of the museum item. Present for all entries where an image exists on Nookipedia; null for entries without one."
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }
@@ -505,7 +504,7 @@ components:
           type: string
           format: uri
           nullable: true
-          description: Optional hotlink to a Nookipedia CDN image.
+          description: Hotlink to a Nookipedia CDN image. Present for most items; `null` for a small number of items not found on Nookipedia.
         games:
           type: array
           items: { $ref: '#/components/schemas/GameCode' }

@@ -10,7 +10,13 @@
     "zodiac": "virgo",
     "catchphrase": "me meow",
     "hobby": "fashion",
-    "games": ["acgc", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/56/Ankha_NH.png/190px-Ankha_NH.png"
   },
   {
     "id": "audie",
@@ -23,7 +29,10 @@
     "zodiac": "cancer",
     "catchphrase": "yodelay",
     "hobby": "fitness",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/1b/Audie_NH.png/215px-Audie_NH.png"
   },
   {
     "id": "beau",
@@ -36,7 +45,11 @@
     "zodiac": "aries",
     "catchphrase": "hay-OK",
     "hobby": "nature",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/d/d4/Beau_NH.png/232px-Beau_NH.png"
   },
   {
     "id": "bianca",
@@ -49,7 +62,11 @@
     "zodiac": "pisces",
     "catchphrase": "va-voom",
     "hobby": "fitness",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6f/Bianca_NH.png/230px-Bianca_NH.png"
   },
   {
     "id": "bob",
@@ -62,7 +79,15 @@
     "zodiac": "capricorn",
     "catchphrase": "pthhhpth",
     "hobby": "play",
-    "games": ["acgc", "ww", "cf", "nl", "nh", "pg"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh",
+      "pg"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/e/ea/Bob_NH.png/190px-Bob_NH.png"
   },
   {
     "id": "bruce",
@@ -75,7 +100,13 @@
     "zodiac": "taurus",
     "catchphrase": "b-b-buddy",
     "hobby": "fitness",
-    "games": ["ww", "cf", "nl", "nh"]
+    "games": [
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/0/08/Bruce_NH.png/238px-Bruce_NH.png"
   },
   {
     "id": "cherry",
@@ -88,7 +119,13 @@
     "zodiac": "taurus",
     "catchphrase": "rrRRruff",
     "hobby": "music",
-    "games": ["ww", "cf", "nl", "nh"]
+    "games": [
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/3e/Cherry_NH.png/240px-Cherry_NH.png"
   },
   {
     "id": "chief",
@@ -101,7 +138,13 @@
     "zodiac": "sagittarius",
     "catchphrase": "awooooo",
     "hobby": "nature",
-    "games": ["acgc", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/13/Chief_NH.png/200px-Chief_NH.png"
   },
   {
     "id": "chrissy",
@@ -114,7 +157,12 @@
     "zodiac": "capricorn",
     "catchphrase": "poppin",
     "hobby": "fashion",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6a/Chrissy_NH.png/197px-Chrissy_NH.png"
   },
   {
     "id": "coco",
@@ -127,7 +175,15 @@
     "zodiac": "pisces",
     "catchphrase": "doyoing",
     "hobby": "education",
-    "games": ["acgc", "ww", "cf", "nl", "nh", "pg"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh",
+      "pg"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/8/83/Coco_NH.png/197px-Coco_NH.png"
   },
   {
     "id": "diana",
@@ -140,7 +196,11 @@
     "zodiac": "capricorn",
     "catchphrase": "snowflake",
     "hobby": "fashion",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/1f/Diana_NH.png/268px-Diana_NH.png"
   },
   {
     "id": "eloise",
@@ -153,7 +213,12 @@
     "zodiac": "pisces",
     "catchphrase": "toodaloo",
     "hobby": "education",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/b1/Eloise_NH.png/295px-Eloise_NH.png"
   },
   {
     "id": "erik",
@@ -166,7 +231,11 @@
     "zodiac": "leo",
     "catchphrase": "lumbago",
     "hobby": "nature",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/8/88/Erik_NH.png/256px-Erik_NH.png"
   },
   {
     "id": "flora",
@@ -179,7 +248,11 @@
     "zodiac": "scorpio",
     "catchphrase": "peachy",
     "hobby": "fashion",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/8/8e/Flora_NH.png/194px-Flora_NH.png"
   },
   {
     "id": "fuchsia",
@@ -192,7 +265,11 @@
     "zodiac": "sagittarius",
     "catchphrase": "swoonie",
     "hobby": "music",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/67/Fuchsia_NH.png/268px-Fuchsia_NH.png"
   },
   {
     "id": "genji",
@@ -205,7 +282,12 @@
     "zodiac": "cancer",
     "catchphrase": "geronimo",
     "hobby": "fitness",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/67/Genji_NH.png/197px-Genji_NH.png"
   },
   {
     "id": "isabelle",
@@ -217,7 +299,12 @@
     "birthday_day": 20,
     "zodiac": "sagittarius",
     "catchphrase": "yup yup",
-    "games": ["nl", "nh", "pg"]
+    "games": [
+      "nl",
+      "nh",
+      "pg"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/f/f5/Isabelle_NH_Transparent.png/219px-Isabelle_NH_Transparent.png"
   },
   {
     "id": "judy",
@@ -230,7 +317,10 @@
     "zodiac": "pisces",
     "catchphrase": "myohmy",
     "hobby": "music",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/d4/Judy_NH.png"
   },
   {
     "id": "julian",
@@ -243,7 +333,11 @@
     "zodiac": "aquarius",
     "catchphrase": "gumdrop",
     "hobby": "nature",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/f/f2/Julian_NH.png/199px-Julian_NH.png"
   },
   {
     "id": "kabuki",
@@ -256,7 +350,12 @@
     "zodiac": "virgo",
     "catchphrase": "achacha",
     "hobby": "fitness",
-    "games": ["acgc", "nl", "nh"]
+    "games": [
+      "acgc",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/2/2a/Kabuki_NH.png/190px-Kabuki_NH.png"
   },
   {
     "id": "kiki",
@@ -269,7 +368,14 @@
     "zodiac": "libra",
     "catchphrase": "kittykat",
     "hobby": "music",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/c/c5/Kiki_NH.png/190px-Kiki_NH.png"
   },
   {
     "id": "kyle",
@@ -282,7 +388,11 @@
     "zodiac": "sagittarius",
     "catchphrase": "alrighty",
     "hobby": "fashion",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/4/46/Kyle_NH.png/200px-Kyle_NH.png"
   },
   {
     "id": "lily",
@@ -295,7 +405,14 @@
     "zodiac": "aries",
     "catchphrase": "toady",
     "hobby": "nature",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/4/42/Lily_NH.png"
   },
   {
     "id": "lolly",
@@ -308,7 +425,12 @@
     "zodiac": "aries",
     "catchphrase": "bonbon",
     "hobby": "education",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/16/Lolly_NH.png/190px-Lolly_NH.png"
   },
   {
     "id": "lucky",
@@ -321,7 +443,14 @@
     "zodiac": "scorpio",
     "catchphrase": "rrr-owch",
     "hobby": "play",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/59/Lucky_NH.png/240px-Lucky_NH.png"
   },
   {
     "id": "maple",
@@ -334,7 +463,14 @@
     "zodiac": "gemini",
     "catchphrase": "honey",
     "hobby": "nature",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/a/a2/Maple_NH.png/229px-Maple_NH.png"
   },
   {
     "id": "marina",
@@ -347,7 +483,14 @@
     "zodiac": "leo",
     "catchphrase": "blurbles",
     "hobby": "music",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/2/25/Marina_NH.png/231px-Marina_NH.png"
   },
   {
     "id": "marshal",
@@ -360,7 +503,12 @@
     "zodiac": "libra",
     "catchphrase": "sulky",
     "hobby": "music",
-    "games": ["nl", "nh", "pg"]
+    "games": [
+      "nl",
+      "nh",
+      "pg"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/d/da/Marshal_NH.png/334px-Marshal_NH.png"
   },
   {
     "id": "merengue",
@@ -373,7 +521,12 @@
     "zodiac": "pisces",
     "catchphrase": "shortcake",
     "hobby": "nature",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/0/0c/Merengue_NH.png/265px-Merengue_NH.png"
   },
   {
     "id": "molly",
@@ -386,7 +539,11 @@
     "zodiac": "leo",
     "catchphrase": "quackpth",
     "hobby": "nature",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/2/29/Molly_NH.png"
   },
   {
     "id": "muffy",
@@ -399,7 +556,11 @@
     "zodiac": "sagittarius",
     "catchphrase": "wooligan",
     "hobby": "music",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/16/Muffy_NH.png/326px-Muffy_NH.png"
   },
   {
     "id": "octavian",
@@ -412,7 +573,13 @@
     "zodiac": "virgo",
     "catchphrase": "sucker",
     "hobby": "play",
-    "games": ["acgc", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/54/Octavian_NH_Transparent.png/238px-Octavian_NH_Transparent.png"
   },
   {
     "id": "pashmina",
@@ -425,7 +592,13 @@
     "zodiac": "capricorn",
     "catchphrase": "kid",
     "hobby": "fashion",
-    "games": ["ww", "cf", "nl", "nh"]
+    "games": [
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/3e/Pashmina_NH.png/288px-Pashmina_NH.png"
   },
   {
     "id": "poncho",
@@ -438,7 +611,12 @@
     "zodiac": "pisces",
     "catchphrase": "cuddly",
     "hobby": "play",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/f/f0/Poncho_NH.png/229px-Poncho_NH.png"
   },
   {
     "id": "punchy",
@@ -451,7 +629,13 @@
     "zodiac": "aries",
     "catchphrase": "mrmpht",
     "hobby": "play",
-    "games": ["acgc", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6d/Punchy_NH.png/190px-Punchy_NH.png"
   },
   {
     "id": "raymond",
@@ -464,7 +648,10 @@
     "zodiac": "libra",
     "catchphrase": "crisp",
     "hobby": "business",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/2/2a/Raymond_NH.png"
   },
   {
     "id": "roald",
@@ -477,7 +664,14 @@
     "zodiac": "gemini",
     "catchphrase": "b-b-buddy",
     "hobby": "fitness",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/63/Roald_NH.png/302px-Roald_NH.png"
   },
   {
     "id": "rosie",
@@ -490,7 +684,14 @@
     "zodiac": "pisces",
     "catchphrase": "silly",
     "hobby": "music",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/fe/Rosie_NH_Transparent.png"
   },
   {
     "id": "sherb",
@@ -503,7 +704,10 @@
     "zodiac": "capricorn",
     "catchphrase": "bahh",
     "hobby": "nature",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/1/18/Sherb_NH.png"
   },
   {
     "id": "stitches",
@@ -516,7 +720,12 @@
     "zodiac": "aquarius",
     "catchphrase": "stuffin",
     "hobby": "education",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/5/56/Stitches_NH.png"
   },
   {
     "id": "tangy",
@@ -529,7 +738,14 @@
     "zodiac": "gemini",
     "catchphrase": "reeeeeeeow",
     "hobby": "play",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6f/Tangy_NH.png/190px-Tangy_NH.png"
   },
   {
     "id": "whitney",
@@ -542,7 +758,12 @@
     "zodiac": "aries",
     "catchphrase": "snappy",
     "hobby": "fashion",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/36/Whitney_NH.png/200px-Whitney_NH.png"
   },
   {
     "id": "zell",
@@ -555,6 +776,12 @@
     "zodiac": "cancer",
     "catchphrase": "pronk",
     "hobby": "fashion",
-    "games": ["ww", "cf", "nl", "nh"]
+    "games": [
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/c/c0/Zell_NH.png/238px-Zell_NH.png"
   }
 ]

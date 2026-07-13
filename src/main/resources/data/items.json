@@ -8,7 +8,10 @@
     "theme": "wooden",
     "source": "nook_shopping",
     "size": "1x1",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/a/a3/Wooden_Chair_%28Light_Wood%29_NH_Icon.png"
   },
   {
     "id": "wooden-table",
@@ -19,7 +22,10 @@
     "theme": "wooden",
     "source": "nook_shopping",
     "size": "2x1",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/c/c5/Wooden_Table_%28Light_Wood_-_None%29_NH_Icon.png"
   },
   {
     "id": "wooden-bookshelf",
@@ -30,7 +36,10 @@
     "theme": "wooden",
     "source": "nook_shopping",
     "size": "1x1",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/6/65/Wooden_Bookshelf_%28Light_Brown%29_NH_Icon.png"
   },
   {
     "id": "antique-bed",
@@ -41,17 +50,24 @@
     "theme": "antique",
     "source": "nook_shopping",
     "size": "2x2",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/7/7a/Antique_Bed_%28Brown%29_NH_Icon.png"
   },
   {
     "id": "iron-chair",
-    "name": "Iron chair",
+    "name": "Ironwood chair",
     "category": "furniture",
     "sell_price": 375,
     "theme": "iron",
     "source": "crafted",
     "size": "1x1",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/df/Ironwood_Chair_%28Birch%29_NH_Icon.png"
   },
   {
     "id": "campfire",
@@ -61,7 +77,10 @@
     "theme": "outdoors",
     "source": "crafted",
     "size": "1x1",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/a/a7/Campfire_NH_Icon.png"
   },
   {
     "id": "wedding-arch",
@@ -71,10 +90,19 @@
     "theme": "wedding",
     "source": "crafted",
     "materials": [
-      { "item_id": "white-rose", "quantity": 4 },
-      { "item_id": "iron-nugget", "quantity": 2 }
+      {
+        "item_id": "white-rose",
+        "quantity": 4
+      },
+      {
+        "item_id": "iron-nugget",
+        "quantity": 2
+      }
     ],
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/f2/Wedding_Arch_%28Cute%29_NH_Icon.png"
   },
   {
     "id": "wedding-bench",
@@ -84,10 +112,19 @@
     "theme": "wedding",
     "source": "crafted",
     "materials": [
-      { "item_id": "wood", "quantity": 4 },
-      { "item_id": "white-rose", "quantity": 6 }
+      {
+        "item_id": "wood",
+        "quantity": 4
+      },
+      {
+        "item_id": "white-rose",
+        "quantity": 6
+      }
     ],
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/4/41/Wedding_Bench_%28Cute%29_NH_Icon.png"
   },
   {
     "id": "birthday-cake",
@@ -97,10 +134,19 @@
     "theme": "birthday",
     "source": "crafted",
     "materials": [
-      { "item_id": "wheat", "quantity": 4 },
-      { "item_id": "sugar", "quantity": 2 }
+      {
+        "item_id": "wheat",
+        "quantity": 4
+      },
+      {
+        "item_id": "sugar",
+        "quantity": 2
+      }
     ],
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/c/ce/Birthday_Cake_%28Whipped-Cream_Topping%29_NH_Icon.png"
   },
   {
     "id": "log-bench",
@@ -110,9 +156,15 @@
     "theme": "wooden",
     "source": "crafted",
     "materials": [
-      { "item_id": "wood", "quantity": 4 }
+      {
+        "item_id": "wood",
+        "quantity": 4
+      }
     ],
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/3/33/Log_Bench_%28Dark_Wood%29_NH_Icon.png"
   },
   {
     "id": "log-stool",
@@ -122,9 +174,15 @@
     "theme": "wooden",
     "source": "crafted",
     "materials": [
-      { "item_id": "wood", "quantity": 3 }
+      {
+        "item_id": "wood",
+        "quantity": 3
+      }
     ],
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/1/14/Log_Stool_%28Dark_Wood%29_NH_Icon.png"
   },
   {
     "id": "flimsy-fishing-rod",
@@ -133,7 +191,10 @@
     "buy_price": 400,
     "sell_price": 100,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/a/a1/Flimsy_Fishing_Rod_NH_Icon.png"
   },
   {
     "id": "fishing-rod",
@@ -142,7 +203,10 @@
     "buy_price": 2500,
     "sell_price": 625,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/2/2f/Fishing_Rod_NH_Icon.png/44px-Fishing_Rod_NH_Icon.png"
   },
   {
     "id": "flimsy-net",
@@ -151,7 +215,10 @@
     "buy_price": 400,
     "sell_price": 100,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/9/91/Flimsy_Net_NH_Icon.png"
   },
   {
     "id": "net",
@@ -160,7 +227,10 @@
     "buy_price": 2500,
     "sell_price": 625,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/15/Net_NH_Icon.png/44px-Net_NH_Icon.png"
   },
   {
     "id": "flimsy-shovel",
@@ -169,7 +239,10 @@
     "buy_price": 400,
     "sell_price": 100,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/e/ea/Flimsy_Shovel_NH_Icon.png"
   },
   {
     "id": "shovel",
@@ -178,7 +251,10 @@
     "buy_price": 2500,
     "sell_price": 625,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/7/7d/Shovel_NH_Icon.png/44px-Shovel_NH_Icon.png"
   },
   {
     "id": "flimsy-axe",
@@ -187,7 +263,10 @@
     "buy_price": 800,
     "sell_price": 200,
     "source": "crafted",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/7/76/Flimsy_Axe_NH_Icon.png"
   },
   {
     "id": "stone-axe",
@@ -195,7 +274,10 @@
     "category": "tool",
     "sell_price": 250,
     "source": "crafted",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/a/a7/Stone_Axe_NH_Icon.png"
   },
   {
     "id": "axe",
@@ -203,7 +285,10 @@
     "category": "tool",
     "sell_price": 625,
     "source": "crafted",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/a/a0/Axe_NH_Icon.png/44px-Axe_NH_Icon.png"
   },
   {
     "id": "watering-can",
@@ -212,7 +297,10 @@
     "buy_price": 800,
     "sell_price": 200,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/0/0f/Watering_Can_NH_Icon.png/44px-Watering_Can_NH_Icon.png"
   },
   {
     "id": "slingshot",
@@ -221,7 +309,10 @@
     "buy_price": 900,
     "sell_price": 225,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6c/Slingshot_NH_Icon.png/44px-Slingshot_NH_Icon.png"
   },
   {
     "id": "sailor-hat",
@@ -231,7 +322,11 @@
     "sell_price": 160,
     "theme": "nautical",
     "source": "able_sisters",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/f2/Sailor%27s_Hat_%28White%29_NH_Icon.png"
   },
   {
     "id": "straw-hat",
@@ -241,7 +336,11 @@
     "sell_price": 140,
     "theme": "outdoors",
     "source": "able_sisters",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/4/45/Straw_Hat_%28Red%29_NH_Icon.png"
   },
   {
     "id": "wetsuit",
@@ -251,7 +350,10 @@
     "sell_price": 750,
     "theme": "sport",
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/2/2f/Boy_Wet_Suit_NL.png/234px-Boy_Wet_Suit_NL.png"
   },
   {
     "id": "kimono",
@@ -261,7 +363,10 @@
     "sell_price": 900,
     "theme": "japanese",
     "source": "able_sisters",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ]
   },
   {
     "id": "tuxedo",
@@ -271,7 +376,11 @@
     "sell_price": 600,
     "theme": "formal",
     "source": "able_sisters",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/c/c1/Tuxedo_Jacket_%28White%29_NH_Icon.png"
   },
   {
     "id": "wood",
@@ -279,7 +388,10 @@
     "category": "material",
     "sell_price": 60,
     "source": "tree",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/a/a2/Wood_NH_Icon.png"
   },
   {
     "id": "softwood",
@@ -287,7 +399,10 @@
     "category": "material",
     "sell_price": 60,
     "source": "tree",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/de/Softwood_NH_Icon.png"
   },
   {
     "id": "hardwood",
@@ -295,7 +410,10 @@
     "category": "material",
     "sell_price": 60,
     "source": "tree",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/de/Hardwood_NH_Icon.png"
   },
   {
     "id": "iron-nugget",
@@ -303,7 +421,10 @@
     "category": "material",
     "sell_price": 375,
     "source": "rock",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/fd/Iron_Nugget_NH_Icon.png"
   },
   {
     "id": "gold-nugget",
@@ -311,7 +432,10 @@
     "category": "material",
     "sell_price": 10000,
     "source": "rock",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/56/Gold_Nugget_NH_Icon.png/44px-Gold_Nugget_NH_Icon.png"
   },
   {
     "id": "stone",
@@ -319,7 +443,10 @@
     "category": "material",
     "sell_price": 75,
     "source": "rock",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/4/45/Stone_NH_Icon.png"
   },
   {
     "id": "clay",
@@ -327,7 +454,10 @@
     "category": "material",
     "sell_price": 100,
     "source": "rock",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/6c/Clay_NH.png/273px-Clay_NH.png"
   },
   {
     "id": "white-rose",
@@ -337,7 +467,10 @@
     "sell_price": 80,
     "theme": "wedding",
     "source": "grown",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/fd/White_Roses_NH_Icon.png"
   },
   {
     "id": "red-rose",
@@ -346,7 +479,10 @@
     "buy_price": 240,
     "sell_price": 80,
     "source": "grown",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/7/74/Red_Roses_NH_Icon.png"
   },
   {
     "id": "wheat",
@@ -354,7 +490,10 @@
     "category": "material",
     "sell_price": 200,
     "source": "grown",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/8/8a/NH_Promo_2.0_7.jpg/400px-NH_Promo_2.0_7.jpg"
   },
   {
     "id": "sugar",
@@ -363,6 +502,9 @@
     "buy_price": 200,
     "sell_price": 50,
     "source": "nook_shopping",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/2/25/Sugar_NH_Icon.png"
   }
 ]

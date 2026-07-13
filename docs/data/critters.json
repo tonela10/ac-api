@@ -8,11 +8,28 @@
     "shadow_size": "small",
     "time_of_day": "all_day",
     "months": {
-      "northern": [11, 12, 1, 2, 3],
-      "southern": [5, 6, 7, 8, 9]
+      "northern": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "southern": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
     },
     "rarity": "common",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/8/86/Bitterling_NH.png"
   },
   {
     "id": "black-bass",
@@ -23,11 +40,44 @@
     "shadow_size": "large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/4/4b/Black_Bass_NH.png/400px-Black_Bass_NH.png"
   },
   {
     "id": "carp",
@@ -38,11 +88,44 @@
     "shadow_size": "large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/39/Carp_NH.png/400px-Carp_NH.png"
   },
   {
     "id": "coelacanth",
@@ -53,11 +136,44 @@
     "shadow_size": "xx-large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "rare",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/b5/Coelacanth_NH.png/400px-Coelacanth_NH.png"
   },
   {
     "id": "koi",
@@ -68,11 +184,44 @@
     "shadow_size": "large",
     "time_of_day": "16:00-09:00",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "uncommon",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/2/24/Koi_NH.png/400px-Koi_NH.png"
   },
   {
     "id": "sea-bass",
@@ -83,11 +232,44 @@
     "shadow_size": "x-large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/d/d6/Sea_Bass_NH.png/400px-Sea_Bass_NH.png"
   },
   {
     "id": "great-white-shark",
@@ -98,11 +280,25 @@
     "shadow_size": "xx-large (fin)",
     "time_of_day": "16:00-09:00",
     "months": {
-      "northern": [6, 7, 8, 9],
-      "southern": [12, 1, 2, 3]
+      "northern": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "southern": [
+        12,
+        1,
+        2,
+        3
+      ]
     },
     "rarity": "rare",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/4/41/Great_White_Shark_NH.png/400px-Great_White_Shark_NH.png"
   },
   {
     "id": "napoleonfish",
@@ -113,11 +309,21 @@
     "shadow_size": "xx-large",
     "time_of_day": "04:00-21:00",
     "months": {
-      "northern": [7, 8],
-      "southern": [1, 2]
+      "northern": [
+        7,
+        8
+      ],
+      "southern": [
+        1,
+        2
+      ]
     },
     "rarity": "rare",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/6/62/Napoleonfish_NH.png/400px-Napoleonfish_NH.png"
   },
   {
     "id": "pond-smelt",
@@ -128,11 +334,26 @@
     "shadow_size": "small",
     "time_of_day": "all_day",
     "months": {
-      "northern": [12, 1, 2],
-      "southern": [6, 7, 8]
+      "northern": [
+        12,
+        1,
+        2
+      ],
+      "southern": [
+        6,
+        7,
+        8
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/f/fc/Pond_Smelt_NH.png"
   },
   {
     "id": "salmon",
@@ -143,11 +364,22 @@
     "shadow_size": "large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [9],
-      "southern": [3]
+      "northern": [
+        9
+      ],
+      "southern": [
+        3
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/8/85/Salmon_NH.png/400px-Salmon_NH.png"
   },
   {
     "id": "stringfish",
@@ -158,11 +390,28 @@
     "shadow_size": "xx-large",
     "time_of_day": "16:00-09:00",
     "months": {
-      "northern": [12, 1, 2, 3],
-      "southern": [6, 7, 8, 9]
+      "northern": [
+        12,
+        1,
+        2,
+        3
+      ],
+      "southern": [
+        6,
+        7,
+        8,
+        9
+      ]
     },
     "rarity": "rare",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/bf/Stringfish_NH.png/400px-Stringfish_NH.png"
   },
   {
     "id": "sturgeon",
@@ -173,11 +422,32 @@
     "shadow_size": "xx-large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [9, 10, 11, 12, 1, 2, 3],
-      "southern": [3, 4, 5, 6, 7, 8, 9]
+      "northern": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "southern": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
     },
     "rarity": "rare",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/1c/Sturgeon_NH.png/400px-Sturgeon_NH.png"
   },
   {
     "id": "arowana",
@@ -188,11 +458,26 @@
     "shadow_size": "large",
     "time_of_day": "16:00-09:00",
     "months": {
-      "northern": [6, 7, 8, 9],
-      "southern": [12, 1, 2, 3]
+      "northern": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "southern": [
+        12,
+        1,
+        2,
+        3
+      ]
     },
     "rarity": "rare",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/9/9a/Arowana_NH.png/400px-Arowana_NH.png"
   },
   {
     "id": "common-butterfly",
@@ -202,11 +487,40 @@
     "price": 160,
     "time_of_day": "04:00-19:00",
     "months": {
-      "northern": [9, 10, 11, 12, 1, 2, 3, 4, 5, 6],
-      "southern": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "southern": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/9/9f/Common_Butterfly_NH.png"
   },
   {
     "id": "monarch-butterfly",
@@ -216,11 +530,26 @@
     "price": 140,
     "time_of_day": "04:00-17:00",
     "months": {
-      "northern": [9, 10, 11],
-      "southern": [3, 4, 5]
+      "northern": [
+        9,
+        10,
+        11
+      ],
+      "southern": [
+        3,
+        4,
+        5
+      ]
     },
     "rarity": "uncommon",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/e/ec/Monarch_Butterfly_NH.png/400px-Monarch_Butterfly_NH.png"
   },
   {
     "id": "emperor-butterfly",
@@ -230,11 +559,30 @@
     "price": 4000,
     "time_of_day": "17:00-08:00",
     "months": {
-      "northern": [12, 1, 2, 3, 4, 5, 6],
-      "southern": [6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "southern": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "uncommon",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/f/f1/Emperor_Butterfly_NH.png/400px-Emperor_Butterfly_NH.png"
   },
   {
     "id": "goliath-beetle",
@@ -244,11 +592,24 @@
     "price": 8000,
     "time_of_day": "17:00-08:00",
     "months": {
-      "northern": [6, 7, 8, 9],
-      "southern": [12, 1, 2, 3]
+      "northern": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "southern": [
+        12,
+        1,
+        2,
+        3
+      ]
     },
     "rarity": "rare",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/4/43/Goliath_Beetle_NH.png/331px-Goliath_Beetle_NH.png"
   },
   {
     "id": "hercules-beetle",
@@ -258,11 +619,23 @@
     "price": 12000,
     "time_of_day": "17:00-08:00",
     "months": {
-      "northern": [7, 8],
-      "southern": [1, 2]
+      "northern": [
+        7,
+        8
+      ],
+      "southern": [
+        1,
+        2
+      ]
     },
     "rarity": "rare",
-    "games": ["acgc", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/4/47/Horned_Hercules_NH.png/220px-Horned_Hercules_NH.png"
   },
   {
     "id": "atlas-moth",
@@ -272,11 +645,28 @@
     "price": 3000,
     "time_of_day": "19:00-04:00",
     "months": {
-      "northern": [4, 5, 6, 7, 8, 9],
-      "southern": [10, 11, 12, 1, 2, 3]
+      "northern": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "southern": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
     },
     "rarity": "uncommon",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/a/a4/Atlas_Moth_NH.png/400px-Atlas_Moth_NH.png"
   },
   {
     "id": "firefly",
@@ -286,11 +676,22 @@
     "price": 300,
     "time_of_day": "19:00-04:00",
     "months": {
-      "northern": [6],
-      "southern": [12]
+      "northern": [
+        6
+      ],
+      "southern": [
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["acgc", "ww", "cf", "nl", "nh"]
+    "games": [
+      "acgc",
+      "ww",
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/5/50/Firefly_NH.png"
   },
   {
     "id": "honeybee",
@@ -300,11 +701,26 @@
     "price": 200,
     "time_of_day": "08:00-17:00",
     "months": {
-      "northern": [3, 4, 5, 6, 7],
-      "southern": [9, 10, 11, 12, 1]
+      "northern": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "southern": [
+        9,
+        10,
+        11,
+        12,
+        1
+      ]
     },
     "rarity": "common",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/8/8b/Honeybee_NH.png"
   },
   {
     "id": "tarantula",
@@ -314,11 +730,30 @@
     "price": 8000,
     "time_of_day": "19:00-04:00",
     "months": {
-      "northern": [11, 12, 1, 2, 3, 4],
-      "southern": [5, 6, 7, 8, 9, 10]
+      "northern": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "southern": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
     },
     "rarity": "rare",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/bf/Tarantula_NH.png/400px-Tarantula_NH.png"
   },
   {
     "id": "scorpion",
@@ -328,11 +763,30 @@
     "price": 8000,
     "time_of_day": "19:00-04:00",
     "months": {
-      "northern": [5, 6, 7, 8, 9, 10],
-      "southern": [11, 12, 1, 2, 3, 4]
+      "northern": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "southern": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
     },
     "rarity": "rare",
-    "games": ["cf", "nl", "nh"]
+    "games": [
+      "cf",
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/f/fe/Scorpion_NH.png/274px-Scorpion_NH.png"
   },
   {
     "id": "ladybug",
@@ -342,11 +796,26 @@
     "price": 200,
     "time_of_day": "08:00-17:00",
     "months": {
-      "northern": [3, 4, 5, 6, 10],
-      "southern": [9, 10, 11, 12, 4]
+      "northern": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "southern": [
+        9,
+        10,
+        11,
+        12,
+        4
+      ]
     },
     "rarity": "common",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/3/33/Ladybug_NH.png"
   },
   {
     "id": "walking-stick",
@@ -356,11 +825,26 @@
     "price": 600,
     "time_of_day": "04:00-08:00",
     "months": {
-      "northern": [7, 8, 9, 10, 11],
-      "southern": [1, 2, 3, 4, 5]
+      "northern": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     },
     "rarity": "uncommon",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/0/0f/Walking_Stick_NH.png/222px-Walking_Stick_NH.png"
   },
   {
     "id": "acorn-barnacle",
@@ -371,11 +855,40 @@
     "shadow_size": "small",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "common",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/d8/Acorn_Barnacle_NH.png"
   },
   {
     "id": "giant-isopod",
@@ -386,11 +899,24 @@
     "shadow_size": "medium",
     "time_of_day": "16:00-09:00",
     "months": {
-      "northern": [7, 8, 9, 10],
-      "southern": [1, 2, 3, 4]
+      "northern": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4
+      ]
     },
     "rarity": "rare",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/58/Giant_Isopod_NH.png/237px-Giant_Isopod_NH.png"
   },
   {
     "id": "pearl-oyster",
@@ -401,11 +927,40 @@
     "shadow_size": "small",
     "time_of_day": "all_day",
     "months": {
-      "northern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-      "southern": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      "northern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "southern": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     },
     "rarity": "uncommon",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/5/52/Pearl_Oyster_NH.png"
   },
   {
     "id": "spider-crab",
@@ -416,11 +971,20 @@
     "shadow_size": "large",
     "time_of_day": "all_day",
     "months": {
-      "northern": [3, 4],
-      "southern": [9, 10]
+      "northern": [
+        3,
+        4
+      ],
+      "southern": [
+        9,
+        10
+      ]
     },
     "rarity": "rare",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/c/cc/Spider_Crab_NH.png/400px-Spider_Crab_NH.png"
   },
   {
     "id": "sea-grape",
@@ -431,10 +995,23 @@
     "shadow_size": "small",
     "time_of_day": "all_day",
     "months": {
-      "northern": [6, 7, 8, 9],
-      "southern": [12, 1, 2, 3]
+      "northern": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "southern": [
+        12,
+        1,
+        2,
+        3
+      ]
     },
     "rarity": "common",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/5/56/Sea_Grapes_NH.png"
   }
 ]

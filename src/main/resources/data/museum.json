@@ -5,7 +5,11 @@
     "category": "fossil",
     "price": 5000,
     "part_of": "t-rex",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/39/NH_T._Rex_Museum.jpg/400px-NH_T._Rex_Museum.jpg"
   },
   {
     "id": "t-rex-torso",
@@ -13,7 +17,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "t-rex",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/39/NH_T._Rex_Museum.jpg/400px-NH_T._Rex_Museum.jpg"
   },
   {
     "id": "t-rex-tail",
@@ -21,7 +29,11 @@
     "category": "fossil",
     "price": 6000,
     "part_of": "t-rex",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/39/NH_T._Rex_Museum.jpg/400px-NH_T._Rex_Museum.jpg"
   },
   {
     "id": "triceratops-skull",
@@ -29,7 +41,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "triceratops",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/5a/NH_Triceratops_Museum.jpg/400px-NH_Triceratops_Museum.jpg"
   },
   {
     "id": "triceratops-torso",
@@ -37,7 +53,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "triceratops",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/5a/NH_Triceratops_Museum.jpg/400px-NH_Triceratops_Museum.jpg"
   },
   {
     "id": "triceratops-tail",
@@ -45,7 +65,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "triceratops",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/5a/NH_Triceratops_Museum.jpg/400px-NH_Triceratops_Museum.jpg"
   },
   {
     "id": "stegosaurus-skull",
@@ -53,7 +77,11 @@
     "category": "fossil",
     "price": 5000,
     "part_of": "stegosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/b9/CF_Stegosaur_Museum.png/400px-CF_Stegosaur_Museum.png"
   },
   {
     "id": "stegosaurus-torso",
@@ -61,7 +89,11 @@
     "category": "fossil",
     "price": 4500,
     "part_of": "stegosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/b9/CF_Stegosaur_Museum.png/400px-CF_Stegosaur_Museum.png"
   },
   {
     "id": "stegosaurus-tail",
@@ -69,7 +101,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "stegosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/b9/CF_Stegosaur_Museum.png/400px-CF_Stegosaur_Museum.png"
   },
   {
     "id": "brachiosaurus-skull",
@@ -77,7 +113,11 @@
     "category": "fossil",
     "price": 6000,
     "part_of": "brachiosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/14/NH_Brachiosaurus_Museum.jpg/400px-NH_Brachiosaurus_Museum.jpg"
   },
   {
     "id": "brachiosaurus-chest",
@@ -85,7 +125,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "brachiosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/14/NH_Brachiosaurus_Museum.jpg/400px-NH_Brachiosaurus_Museum.jpg"
   },
   {
     "id": "brachiosaurus-pelvis",
@@ -93,7 +137,11 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "brachiosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/14/NH_Brachiosaurus_Museum.jpg/400px-NH_Brachiosaurus_Museum.jpg"
   },
   {
     "id": "brachiosaurus-tail",
@@ -101,21 +149,33 @@
     "category": "fossil",
     "price": 5500,
     "part_of": "brachiosaurus",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/1/14/NH_Brachiosaurus_Museum.jpg/400px-NH_Brachiosaurus_Museum.jpg"
   },
   {
     "id": "ammonite",
     "name": "Ammonite",
     "category": "fossil",
     "price": 1100,
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/3/3a/NH_Ammonite_Museum.jpg/400px-NH_Ammonite_Museum.jpg"
   },
   {
     "id": "trilobite",
     "name": "Trilobite",
     "category": "fossil",
     "price": 1300,
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/c/cd/NH_Trilobite_Museum.jpg"
   },
   {
     "id": "mammoth-skull",
@@ -123,7 +183,11 @@
     "category": "fossil",
     "price": 3500,
     "part_of": "mammoth",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/5e/CF_Mammoth_Museum.png/400px-CF_Mammoth_Museum.png"
   },
   {
     "id": "mammoth-torso",
@@ -131,7 +195,11 @@
     "category": "fossil",
     "price": 3000,
     "part_of": "mammoth",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/5/5e/CF_Mammoth_Museum.png/400px-CF_Mammoth_Museum.png"
   },
   {
     "id": "amazing-painting",
@@ -140,7 +208,11 @@
     "price": 3920,
     "real_artwork": true,
     "artist": "Rembrandt",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/thumb/b/bb/Amazing_Painting_NH_Texture.png/400px-Amazing_Painting_NH_Texture.png"
   },
   {
     "id": "amazing-painting-forgery",
@@ -150,7 +222,10 @@
     "real_artwork": false,
     "forgery_hint": "The Night Watchman on the far right is missing his hat.",
     "artist": "Rembrandt",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ]
   },
   {
     "id": "famous-painting",
@@ -159,7 +234,11 @@
     "price": 3920,
     "real_artwork": true,
     "artist": "Leonardo da Vinci",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/d/db/Famous_Painting_NH_Texture.png"
   },
   {
     "id": "famous-painting-forgery",
@@ -169,7 +248,10 @@
     "real_artwork": false,
     "forgery_hint": "The subject has raised eyebrows in the real painting.",
     "artist": "Leonardo da Vinci",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ]
   },
   {
     "id": "wistful-painting",
@@ -178,7 +260,11 @@
     "price": 4900,
     "real_artwork": true,
     "artist": "Johannes Vermeer",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/4/42/Wistful_Painting_NH_Texture.png"
   },
   {
     "id": "wistful-painting-forgery",
@@ -188,7 +274,10 @@
     "real_artwork": false,
     "forgery_hint": "The girl's earring should be visible.",
     "artist": "Johannes Vermeer",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ]
   },
   {
     "id": "scary-painting",
@@ -197,7 +286,11 @@
     "price": 1568,
     "real_artwork": true,
     "artist": "Sharaku",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/b/bc/Scary_Painting_NH_Texture.png"
   },
   {
     "id": "scary-painting-forgery",
@@ -207,7 +300,10 @@
     "real_artwork": false,
     "forgery_hint": "In the forgery, the eyebrows are green instead of black.",
     "artist": "Sharaku",
-    "games": ["nl", "nh"]
+    "games": [
+      "nl",
+      "nh"
+    ]
   },
   {
     "id": "beautiful-statue",
@@ -216,7 +312,10 @@
     "price": 6000,
     "real_artwork": true,
     "artist": "Alexandros of Antioch",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ],
+    "image_url": "https://dodo.ac/np/images/9/9f/Beautiful_Statue_NH_Icon.png"
   },
   {
     "id": "beautiful-statue-forgery",
@@ -226,6 +325,8 @@
     "real_artwork": false,
     "forgery_hint": "The forgery is wearing a necklace.",
     "artist": "Alexandros of Antioch",
-    "games": ["nh"]
+    "games": [
+      "nh"
+    ]
   }
 ]
