@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.acapp.data.VillagerRepository
 import com.example.acapp.data.dto.Villager
 import com.example.acapp.util.UiState
+import com.example.acapp.util.toUserFacingMessage
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -27,7 +28,10 @@ class VillagersListViewModel(
             _state.value = try {
                 UiState.Success(repo.listVillagers())
             } catch (t: Throwable) {
-                UiState.Error(t.message ?: "Failed to load villagers")
+                val detail = t.toUserFacingMessage("no message")
+                println("[ac-api] load() failed: $detail")
+                t.printStackTrace()
+                UiState.Error(detail)
             }
         }
     }
